@@ -1,0 +1,13 @@
+parallel => multiple processes/tasks run at same time
+    process 1 ====================
+    process 2 ====================
+    process 3 ====================
+    process 4 ====================
+              ______________________ t (time)
+
+concurrency => multiple processes/tasks run in one period
+    process 1 ===         ==
+    process 2    ===        ==
+    process 3       ===       ==
+    process 4          ===      ==
+              ______________________ t (time)
